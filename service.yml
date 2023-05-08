@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: objectdet-service
+spec:
+  selector:
+    app: objectdet
+  ports:
+  - protocol: "TCP"
+    port: 8080
+    targetPort: 5000
+    nodePort: 30001
+  type: NodePort
+---

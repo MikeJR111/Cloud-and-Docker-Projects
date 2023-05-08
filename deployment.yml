@@ -1,0 +1,28 @@
+apiVersion: v1
+kind: Deployment
+metadata:
+  name: detect-deployment
+  labels:
+    app: objectdet
+spec:
+  selector:
+    matchLabels:
+      app: objectdet
+  replicas: 16
+  template:
+    metadata:
+      labels:
+        app: objectdet
+    spec:
+      containers:
+      - name: objectdet-container
+        image: jwrm/code:latest
+        resources:
+          limits:
+            cpu: "0.5"
+             memory: "512Mi"
+          requests:
+            cpu: "0.5"
+            memory: "512Mi"
+        ports:
+        - containerPort: 5000

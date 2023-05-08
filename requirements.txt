@@ -1,0 +1,11 @@
+numpy==1.19.5
+Jinja2==2.11.2
+MarkupSafe==1.1.1
+pytz==2020.1
+click==7.1.2
+Flask==1.1.2
+Flask-RESTful==0.3.8
+itsdangerous==1.1.0
+Werkzeug==1.0.1
+requests==2.22.0
+opencv-python-headless==4.5.4.58
