@@ -7,3 +7,6 @@
 
 ![2895b43c3f7027b7a4ef54b6faca8b7](https://github.com/MikeJR111/Cloud-and-Docker-Projects/assets/93886913/5dc914fe-ca5d-45ac-aa3a-1a20966554bf)
 
+## DynamoDB
+
+![image](https://github.com/MikeJR111/Cloud-and-Docker-Projects/assets/93886913/a0cca0fc-69e6-4d72-9641-0fcb73c88716)
